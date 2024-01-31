@@ -17,14 +17,14 @@ This is how it works:
 
 2. Unit Input:
 	- The program then prompts the user to enter the unit of weight, either "kg" or "lbs", using input("kg or lbs: "). The entered value is stored in the variable unit.
- - 
+
 3. Conditional Check ( if unit == "kg":):
 	- The program checks whether the unit entered by the user is "kg".
- - 
+
 4. Conversion and Output ( converted = weight * 2.2):
 	- If the unit is "kg", the program multiplies the weight by 2.2 to convert it to pounds. The result is stored in the variable converted.
 	- It then prints the converted weight in pounds.
- - 
+
 5. Alternative Conversion and Output ( else:):
 	- If the unit is not "kg" (i.e., it's assumed to be "lbs"), the program divides the weight by 2.2 to convert it to kilograms. The result is stored in the variable converted.
 	- It then prints the converted weight in kilograms.
